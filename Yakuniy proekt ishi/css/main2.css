@@ -1,0 +1,79 @@
+
+.menyu{
+    position: relative;
+    margin-bottom: 100px;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    border-bottom: 5px solid black;
+}
+.menyu:hover{
+    color: black;
+    text-decoration: none;
+}
+.hr{
+    position: relative;
+    left: 150px;
+    bottom: 40px;
+    width: 30px;
+    transform: rotate(90deg);
+}
+.matn{
+    width: 1080px;
+    height: 510px;
+    background-color: lavender;
+    color: black;
+    position: relative;
+    left: 11px;
+    border-radius: 22px;
+    padding: 15px;
+    font-family: "Harlow Solid Italic";
+    font-size: 23px;
+}
+.uzb {
+    width: 30px;
+    height: 25px;
+    position: relative;
+    left: 42px;
+    border-radius: 20px;
+}
+
+.buy{
+    width: 200px!important;
+    border: 3px solid;
+}
+.buy:hover{
+    background-color: whitesmoke!important;
+    transition: 0.5s!important;
+    color: black!important;
+    border: 3px outset black;
+    transform: scale(1.1);
+    font-weight: bold;
+}
+.menu{
+    border: 3px solid;
+    width: 110px;
+}
+.menu:hover{
+    background-color: whitesmoke;
+    transition: 0.5s;
+    color: black;
+    font-weight: bold;
+    transform: scale(1.1);
+    border: 3px outset black;
+}
+
+.milliy:hover{
+    box-shadow: 0 0 20px rgba(80,80,80,0.5);
+    transition: 1s;
+    transform: scale(1.1);
+}
+.backwall{
+    background: linear-gradient(teal,skyblue);
+}
+.kabinetim{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 60px;
+    font-size: 17px;
+}

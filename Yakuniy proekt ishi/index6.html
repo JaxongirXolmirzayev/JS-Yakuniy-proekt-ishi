@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main6.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row ">
+        <div class="col-md-6 offset-3">
+            <div class="card my-4 login">
+                <div class="card-body">
+                    <div class="form-group text-danger">
+                        <label for="login">Loginni kiriting</label>
+                        <input type="text" class="form-control" id="login" placeholder="Loginni kiriting">
+                    </div>
+                    <div class="form-group text-danger">
+                        <label for="password">Parolni kiriting</label>
+                        <div class="input-group">
+                            <input type="password" class="form-control" id="password" placeholder="Parolni kiriting">
+                            <div class="input-group-append">
+                                <button type="button" class="btn btn-light">
+                                    <i class="fa fa-eye  text-muted"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group text-right">
+                        <button type="button" class="btn btn-link">Ro'yxatdan o'tish</button>
+                        <button type="button" class="btn btn-primary">Tizimga kirish</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container">
+    <div class="row my-5 progr">
+        <div class="col-md-8 offset-2">
+            <div class="card-deck">
+                <div class="card progr1">
+                    <div class="card-body">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="taskInput" placeholder="Vazifa nomi">
+                            <button type="button" class="btn btn-info" onclick="addTask()">Qo'shish</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card progr1">
+                    <div class="card-body">
+                        <h4>Progress</h4>
+                        <ul class="list-unstyled">
+                            <li class="d-inline-block">Jami vazifalar: <span id="allTask">0</span></li>
+                            <li class="d-inline-block">Jami bajarilganlar: <span id="comlateTask">0</span></li>
+                        </ul>
+                        <div class="progress my-3 progr2">
+                            <div class="progress-bar bg-success progress-bar-animated progress-bar-striped" id="progress"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card my-3 progr1">
+                <div class="card-body">
+                    <ul class="list-group" id="list">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/jQuery.min.js"></script>
+<script src="js/src/popover.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="https://kit.fontawesome.com/d4a079dfa8.js" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

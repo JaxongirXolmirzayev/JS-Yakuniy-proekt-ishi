@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Lucida Fax";
+    background: linear-gradient(#171738,#2E1760);
+
+}
+.login{
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    width: 450px;
+    padding: 40px;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(#006921,#2E1222);
+    box-sizing: border-box;
+    box-shadow: 0 12px rgba(99,299,2,9);
+    border-radius: 15px;
+    border: 2px solid lawngreen;
+
+}
+
+
+.progr{
+    position: absolute;
+    top: 420px;
+    left: 160px;
+    width: 1500px;
+}
+.progr1{
+    background: coral;
+    border-radius: 15px;
+    border: 2px solid lawngreen;
+}
+.progr2{
+    background: #bee5eb;
+}
+
+
+
+
